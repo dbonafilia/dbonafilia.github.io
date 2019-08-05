@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Derrick Bonafilia"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/prof_pic.jpg"
   bio              : "Software/Research Engineer. Formerly @ Facebook and Google. Graduated from Williams College in 2017"
   location         : "Seattle, WA"
   email            : "derrickbonafilia@gmail.com"
