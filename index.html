@@ -2,3 +2,15 @@
 layout: home
 author_profile: true
 ---
+{% capture md %}
+# Welcome!
+
+I'm currently a software/research engineer based in Seattle, Washington
+
+I'm interested in machine learning and AI. I'm particularly interested in leveraging
+these technologies for positive social impact. Currently, I'm most interested in
+green energy and sustainability applications. Most recently, I've been working 
+on AI powered mapping and remote sensing to contribute to open source maps at Facebook.
+
+{% endcapture %}
+{{md | markdownify }}
