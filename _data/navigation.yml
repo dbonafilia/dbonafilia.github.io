@@ -9,4 +9,4 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Research/Projects"
-    /projects/
+    url: /projects/
