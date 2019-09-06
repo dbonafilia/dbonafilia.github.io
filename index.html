@@ -33,15 +33,21 @@ in CVPR 2019's Computer Vision for Global Challenges Workshop and explained in d
 [AI](https://ai.facebook.com/blog/mapping-the-world-to-help-aid-workers-with-weakly-semi-supervised-learning/) 
 and [Tech](https://tech.fb.com/ai-powered-maps-help-vaccination-campaigns/) blogs. This worked involved automatically scaling a 
 training data set from around 1 million images to 100's of millions of images and improving the accuracy of the final model
-by more than 12%. This work is being used today by organizations like the Red Cross and The Bill and Melinda Gates Foundation
+by more than 12%. This work also automated the process of getting training data for new countries, allowing the team to
+begin releasing population maps for more countries in a few months than it had in all of the proceeding years of the project. 
+This work is being used today by organizations like the Red Cross and The Bill and Melinda Gates Foundation
 to save lives.
 
 ## Map With AI
 
 ![]( {{ "assets/roads_pic.jpg"" | relative_url }})
 
-[Map With AI](https://mapwith.ai) is a suite of tools to enable faster and more accurate mapping to the open mapping community.
-
+[Map With AI](https://mapwith.ai) is a suite of tools from Facebook to enable faster and more accurate mapping to the open mapping community.
+Working as an engineer on the World.AI team at Facebook, I developed a weakly supervised training regime to improve the accuracy
+and generalizability of the model that powers the Map With AI suite of tools. Because of this work, we were able to produce 
+accurate results for countries on 6 continents around the world. Prior to the development of this method, results could only be 
+accurately and reliably produced for Indonesia and Thailand &mdash; two countries on the same continent. On a sampling of test countries
+this training regime led to an average relative accuracy improvement of 62%. 
 
 {% endcapture %}
 {{md | markdownify }}
