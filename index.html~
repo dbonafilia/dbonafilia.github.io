@@ -16,18 +16,14 @@ Some of my work has been featured in outlets like
 [Tech](https://techcrunch.com/2017/06/20/gangogh/)[Crunch](https://techcrunch.com/2019/04/09/facebooks-ai-team-maps-out-where-everyone-in-africa-lives/), 
 [Fast Company](https://www.fastcompany.com/90331895/facebook-has-created-an-insanely-detailed-map-of-where-everyone-in-africa-lives), and [BBC](https://www.bbc.com/news/technology-49091093?fbclid=IwAR2Uoku7oH-Iyai29mCHzRfxmFc1Al67_yNS06IELKlEM1NtDiPQuwH4lYc).
 
-Read on for details on some projects I've worked on.
+I'm interested in machine learning and AI. I'm particularly interested in leveraging
+these technologies for positive social impact. Currently, I'm most interested in
+green energy and sustainability applications. Most recently, I've been working 
+on AI powered mapping and remote sensing to contribute to open source maps at Facebook.
+
+Read on for details on some of my favorite projects I've worked on.
 
 # Projects
-
-## Sen1Floods11: a georeferenced dataset to train and test deep learning flood algorithms for Sentinel-1(2020)
-![]( {{ "assets/floods.png" | relative_url }})                                                         
-Accurate flood mapping at global scale can support disaster relief and recovery efforts. Improving flood relief efforts with more accurate data is of great importance due to expected increases in the frequency and magnitude of flood events due to climate change. To assist efforts to operationalize deep learning algorithms for flood mapping at global scale, we introduce Sen1Floods11, a surface water data set including raw Sentinel-1 imagery and classified permanent water and flood water. This dataset consists of 4,831 512x512 chips covering 120,406 km2 and spans all 14 biomes, 357 ecoregions, and 6 continents of the world across 11 flood events. We used Sen1Floods11 to train, validate, and test fully convolutional neural networks (FCNNs) to segment permanent and flood water. We compare results of classifying permanent, flood, and total surface water from training a FCNN model on four subsets of this data: i) 446 hand labeled chips of surface water from flood events; ii) 814 chips of publicly available permanent water data labels from Landsat (JRC surface water dataset); iii) 4,385 chips of surface water classified from Sentinel-2 images from flood events and iv) 4,385 chips of surface water classified from Sentinel-1 imagery from flood events. We compare these four models to a common remote sensing approach of thresholding radar backscatter to identify surface water. Results show the FCNN model trained on classifications of Sentinel-2 flood events performs best to identify flood and total surface water, while backscatter thresholding yielded the best result to identify permanent water classes only. Our results suggest deep learning models for flood detection of radar data can outperform threshold based remote sensing algorithms, and perform better with training labels that include flood water specifically, not just permanent surface water. We also find that FCNN models trained on plentiful automatically generated labels from optical remote sensing algorithms perform better than models trained on scarce hand labeled data. Future research to operationalize computer vision approaches to mapping flood and surface water could build new models from Sen1Floods11 and expand this dataset to include additional sensors and flood events. We provide Sen1Floods11, as well as our training and evaluation code at: https://github.com/cloudtostreet/Sen1Floods11 .
-
-Publication |
---- |
-https://www.semanticscholar.org/paper/Sen1Floods11%3A-a-georeferenced-dataset-to-train-and-Bonafilia-Tellman/e184f730775262869952b0b6de99d0967147301a|
-
 ## World's Most Accurate Population Density Maps(HRSL)(2018-2019)
 ![]( {{ "assets/popdensimage.gif"" | relative_url }})
 
